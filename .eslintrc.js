@@ -3,13 +3,15 @@ module.exports = {
     browser: true,
     commonjs: true,
     es2021: true,
+    jest: true,
   },
   extends: [
-    'airbnb-base',
+    "airbnb-base",
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: "latest",
   },
   rules: {
+    quotes: ["error", "double"],
   },
 };
