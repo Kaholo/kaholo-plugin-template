@@ -13,5 +13,6 @@ module.exports = {
   },
   rules: {
     quotes: ["error", "double"],
+    curly: ["error", "all"],
   },
 };
