@@ -14,5 +14,6 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     curly: ["error", "all"],
+    "no-console": ["error", { allow: ["info", "warn", "error"] }],
   },
 };
