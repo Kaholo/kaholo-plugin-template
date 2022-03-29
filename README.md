@@ -79,7 +79,7 @@ Required parameters have an asterisk (*) next to their names.
 * XYZ Endpoint * - as described above in [plugin settings](#plugin-settings)
 * Service Token * - as described above in [plugin settings](#plugin-settings)
 * Zed Hook Code - a code string from Zed Hooks, e.g. `zed-20220329aad`
-* Zed Alarm Group - a Zed alarm groups, e.g. `zed-group-one`
+* Zed Alarm Group - a Zed alarm group, e.g. `zed-group-one`
 
 ## Method: Set Zed Alarm
 This method is not yet implemented. If you are interested in setting Zed alarms from Kaholo, please let us know! support@kaholo.io.
