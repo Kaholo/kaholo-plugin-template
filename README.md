@@ -33,7 +33,7 @@ For download, installation, upgrade, downgrade and troubleshooting of plugins in
 ## Plugin Settings
 Plugin settings act as default parameter values. If configured in plugin settings, the action parameters may be left unconfigured. Action parameters configured anyway over-ride the plugin-level settings for that Action.
 * Default XYZ Endpoint - The URL of your SystemXYZ installation, e.g. `https://your-account.systemxyz.com.nz/`
-* Default Zed Group - The Zed Group to use with Zed alarm methods, e.g. `zed-group-one`. Not used for Ex message-related methods.
+* Default Zed Alarm Group - The Zed Alarm Group to use with Zed alarm methods, e.g. `zed-group-one`. Not used for Ex message-related methods.
 * Default Service Token (Vault) - The service token, stored in the Kaholo vault for authentication and access. e.g. `XYZ-9ef6df656f9db28d4feaac0c0c6855bc`
 
 ## Pipelining Alarm Messaging
