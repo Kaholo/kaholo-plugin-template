@@ -1,5 +1,5 @@
 {
-  "name": "plugin-template",
+  "name": "kaholo-plugin-template",
   "viewName": "Kaholo Template Plugin",
   "type": "executer",
   "main": "app.js",
