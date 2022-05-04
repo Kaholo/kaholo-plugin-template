@@ -6,7 +6,7 @@
   "execProgram": "node",
   "exposeRoute": false,
   "imgUrl": "logo.png",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This plugin is only a generic template.",
   "category": [
     "OTHER"
@@ -35,7 +35,7 @@
           "name": "helloName",
           "viewName": "Hello Name",
           "type": "string",
-          "required": false,
+          "required": true,
           "placeholder": "Bob",
           "description": "The person to whom to say hello",
           "learnUrl": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
@@ -44,7 +44,7 @@
           "name": "secret",
           "viewName": "Secret",
           "type": "vault",
-          "required": true,
+          "required": false,
           "description": "A secret we might also say.",
           "learnUrl": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
         },
