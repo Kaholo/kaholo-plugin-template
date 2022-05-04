@@ -6,11 +6,11 @@ async function hello(action, settings) {
   if (!name) {
     throw new Error("No name was given.");
   }
-  
+
   let greeting = `Hello ${name}.`;
-  
+
   if (saySecret && !secret) {
-      throw new Error("No secret was provided to say. Please provide a secret or uncheck \"Say Secret\".");
+    throw new Error("No secret was provided to say. Please provide a secret or uncheck \"Say Secret\".");
   }
 
   if (saySecret) {
