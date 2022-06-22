@@ -1,6 +1,5 @@
 {
   "name": "kaholo-plugin-template",
-  "version": "1.0.0",
   "description": "A template for Kaholo plugin development",
   "main": "app.js",
   "scripts": {
