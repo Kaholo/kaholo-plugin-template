@@ -1,7 +1,9 @@
-async function hello(action, settings) {
-  const name = action.params.helloName || "there";
-  const saySecret = action.params.saySecret || undefined;
-  const secret = action.params.secret || undefined;
+const { bootstrap } = require("@kaholo/plugin-library");
+
+async function hello(params) {
+  const name = params.helloName || "there";
+  const saySecret = params.saySecret || undefined;
+  const secret = params.secret || undefined;
 
   let greeting = `Hello ${name}!`;
 
@@ -16,6 +18,6 @@ async function hello(action, settings) {
   return greeting;
 }
 
-module.exports = {
+module.exports = bootstrap({
   hello,
-};
+});
