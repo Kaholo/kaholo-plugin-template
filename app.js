@@ -1,7 +1,6 @@
 const { bootstrap } = require("@kaholo/plugin-library");
 
 async function hello(params) {
-
   const {
     helloName,
     saySecret,
