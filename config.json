@@ -1,0 +1,64 @@
+{
+  "name": "kaholo-plugin-template",
+  "viewName": "Kaholo Template Plugin",
+  "type": "executer",
+  "main": "app.js",
+  "execProgram": "node",
+  "exposeRoute": false,
+  "imgUrl": "logo.png",
+  "version": "1.0.2",
+  "description": "This plugin is only a generic template.",
+  "category": [
+    "Basic Tools"
+  ],
+  "keywords": [
+    "template",
+    "plugin",
+    "kaholo",
+    "hello"
+   ],
+  "settings": [
+    {
+      "name": "helloName",
+      "viewName": "Default Hello Name",
+      "type": "string",
+      "description": "The person to whom to say hello by default",
+      "learnUrl": "https://docs.apify.com/api/v2#/introduction/authentication"
+    }
+  ],
+  "methods": [
+    {
+      "name": "hello",
+      "viewName": "Say hello",
+      "params": [
+        {
+          "name": "helloName",
+          "viewName": "Hello Name",
+          "type": "string",
+          "required": false,
+          "placeholder": "World",
+          "default": "World",
+          "description": "The person to whom to say hello",
+          "learnUrl": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+        },
+        {
+          "name": "secret",
+          "viewName": "Secret",
+          "type": "vault",
+          "required": false,
+          "description": "A secret we might also say.",
+          "learnUrl": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+        },
+        {
+          "name": "saySecret",
+          "viewName": "Say secret",
+          "type": "boolean",
+          "required": false,
+          "default": false,
+          "description": "If checked we'll also say the secret.",
+          "learnUrl": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+        }
+      ]
+    }
+  ]
+}
