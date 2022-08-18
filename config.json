@@ -6,7 +6,7 @@
   "execProgram": "node",
   "exposeRoute": false,
   "imgUrl": "logo.png",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "This plugin is only a generic template.",
   "category": [
     "Basic Tools"
