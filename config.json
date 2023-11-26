@@ -1,13 +1,13 @@
 {
-  "name": "kaholo-plugin-template",
-  "viewName": "Kaholo Template Plugin",
+  "name": "template",
+  "viewName": "Template",
   "type": "executer",
   "main": "app.js",
   "execProgram": "node",
   "exposeRoute": false,
   "imgUrl": "logo.png",
   "version": "1.0.2",
-  "description": "This plugin is only a generic template.",
+  "description": "Run a very simple plugin as an example"
   "category": [
     "Basic Tools"
   ],
